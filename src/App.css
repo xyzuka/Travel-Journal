@@ -89,13 +89,13 @@
   color: #2B283A;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .card {
     height: auto !important;
     max-width: 400px;
     align-self: center;
     display: flex;
     flex-direction: row;
-    /* margin: 50px 200px 50px 200px; */
+    /* margin: 50px 200px 50px 200px; 
   }
-}
+} */

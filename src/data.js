@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: 'Sydney Opera House',
     location: 'Australia',
     googleMapsUrl: 'https://goo.gl/maps/KRLnRst7YDXTHYmz6',
@@ -9,6 +10,7 @@ export default [
       'https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1933&q=80',
   },
   {
+    id: 2,
     title: 'Natadola Beach',
     location: 'Fiji',
     googleMapsUrl: 'https://goo.gl/maps/mHUtGzckes1ACB1g7',
@@ -18,6 +20,7 @@ export default [
       'http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSGCOv-I5uTAJS1E-RNole87GNRRt1oloUfKk7LuDRQTkZ_i86G4q7NYEBTmoAavDx4',
   },
   {
+    id: 3,
     title: 'Mount Rushmore National Memorial',
     location: 'United States',
     googleMapsUrl: 'https://goo.gl/maps/fyEXzD6iwQKyVaUC9',
