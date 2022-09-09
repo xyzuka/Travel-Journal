@@ -1,41 +1,101 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  width: 25px;
+  height: 25px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-text {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+  padding: 20px 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 .card {
-  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  margin: 50px 200px 50px 200px;
 }
 
-.read-the-docs {
-  color: #888;
+.card-header-section {
+  margin: 20px;
+}
+
+.card-image {
+  width: 250px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.location-section {
+  display: flex;
+  align-items: center;
+}
+
+.location-tag {
+  width: 10px;
+  height: 15px;
+}
+
+.location-text {
+  font-weight: 400px;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.link-tag {
+  color: #918E9B;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.header-text {
+  font-weight: 700;
+  font-size: 25px;
+  color: #2B283A;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #2B283A;
+  margin-bottom: 10px;
+}
+
+.location-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2B283A;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    height: auto !important;
+    max-width: 400px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    /* margin: 50px 200px 50px 200px; */
+  }
 }
